@@ -7,6 +7,7 @@ const Products = () => {
 
     return (
         <div>
+            <h1 className='text-center text-2xl font-medium text-neutral mt-12'>All Products List</h1>
             <div className='grid grid-cols-1 lg:grid-cols-3 gap-4 p-6'>
                 {
                     products.map(product => <InfoProducts
